@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+.bghome {
+	background-image: url("image/background.png");
+	background-size: cover;	
+}
+
+.bgagents {
+    background-size: cover;
+    background-image: url("image/background2.png");
+}
+
+.bgvideo {
+	min-width: 100vw;
+	min-height: 100vh;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+	z-index: -1;
+}
+
+.bgmaps {
+	background-image: url("image/background4.png");
+}
+
+.texttitle {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	display: block;
+	margin-bottom: auto;
+	padding-top: 150px;
+	padding-bottom: 70px;
+}
+
+* {
+	text-decoration: none;
+	
+}
+
+.header {
+	position: fixed;
+	background-color:black;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav {
+	font-family: DINNextW1G,arial,georgia,sans-serif; padding-right: 15px;padding-left: 15px;
+}
+
+.navdiv {
+	display: flex; align-items: center; justify-content: space-between;
+}
+
+.logo img {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+button{
+		background-color: red; border-radius: 10px; padding: 10px; width: 110px;
+		}
+
+a button{
+			color: white; font-family: DINNextW1G,arial,georgia,sans-serif; font-size: 18px; font-weight: bold;
+		}
+
+li{
+	list-style: none; display: inline-block;
+}
+
+li a:hover {
+	color:red;
+}
+
+li a{
+	color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+
+.desctext {
+    padding-top: 25px;
+    padding-bottom: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+    color: #FFFFFF;
+    font-family: DINNextW1G,arial,georgia,sans-serif;
+	text-align: justify;
+    box-shadow: 0px 0px 200px -30px #FFFFFF;
+}
+
+.homepage {
+	display: flex;
+	justify-content: center;
+}
+
+.agenttable img {
+	width: 150px;
+}
+
+.agenttable {
+	padding-top: 150px;
+}
+.agenttable table   {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px;
+	color: white;
+	border: solid 2px;
+	
+}
+
+.agenttable td {
+	color: white;
+	font-family: DINNextW1G,arial,georgia,sans-serif;
+	position: relative;
+	border:solid 2px;
+	
+}
+.overlaybox {
+    color: #FFFFFF;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-box-shadow: inset 0px 0px #F74144;
+    box-shadow: inset 0px 50px #F74144;
+	position: absolute;
+	transform: translate(520px,70px);
+	font-family: DINNextW1G,arial,georgia,sans-serif;
+}
+
+.popup {
+	position: absolute;
+	top: 0;
+	transition: 0.3s;
+	opacity: 0;
+	z-index: 1;
+	width: 150px;
+	height: 150px;
+	
+}
+
+.popup:hover {
+	transform: scale(2);
+	z-index: 3;
+	opacity: 1;
+	width: 150px;
+	height: auto;
+	
+}
+
+.playbutton {
+	position: absolute;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,0);
+	background-color: red; 
+	width: 200px;
+	height: 60px;
+	font-size: 15px;
+	transition: 0.5s;
+	border-radius: 0px;
+}
+
+.playbutton:hover {
+	color: black;
+	background-color: white; 
+}
+
+.downloadtext {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-family: DINNextW1G,arial,georgia,sans-serif;
+    font-size: 70px;
+    text-shadow: -2px 3px 19px #000000;
+}
+
+.mapstable {
+	padding-top: 225px;
+}
+.mapstable table   {
+    margin-left: auto;
+    margin-right: auto;
+	border-collapse: collapse;
+}
+
+.mapstable td {
+	
+	color: white;
+	font-size: 20px;
+	font-family: DINNextW1G,arial,georgia,sans-serif;
+	text-align: center;
+	background-color: #101c24;
+}
+.bind {
+	background-image: url("image/bind.png");
+	transition: 0.5s;
+	width: 500px;
+	height: 550px;
+	filter: brightness(50%);
+}
+
+.bind:hover {
+	width:5000px;
+	filter: brightness(100%);
+}
+
+.haven {
+	background-image: url("image/haven.png");
+	transition: 0.5s;
+	width: 500px;
+	height: 550px;
+	filter: brightness(50%);
+}
+.haven:hover {
+	width:5000px;
+	filter: brightness(100%);
+}
+
+.split {
+	background-image: url("image/split.png");
+	transition: 0.5s;
+	width: 500px;
+	height: 550px;
+	filter: brightness(50%);
+}
+.split:hover {
+	width:5000px;
+	filter: brightness(100%);
+}
+
+.ascent {
+	background-image: url("image/ascent.png");
+	transition: 0.5s;
+	width: 500px;
+	height: 550px;
+	filter: brightness(50%);
+}
+
+.ascent:hover {
+	width:5000px;
+	filter: brightness(100%);
+}
+
+.icebox {
+	background-image: url("image/icebox.png");
+	transition: 0.5s;
+	width: 500px;
+	height: 550px;
+	filter: brightness(50%);
+}
+.icebox:hover {
+	width:5000px;
+	filter: brightness(100%);
+}
+
+.breeze {
+	background-image: url("image/breeze.png");
+	transition: 0.5s;
+	width: 500px;
+	height: 550px;
+	filter: brightness(50%);
+}
+.breeze:hover {
+	width:5000px;
+	filter: brightness(100%);
+}
+
+.fracture {
+	background-image: url("image/fracture.png");
+	transition: 0.5s;
+	width: 500px;
+	height: 550px;
+	filter: brightness(50%);
+}
+.fracture:hover {
+	width:5000px;
+	filter: brightness(100%);
+}
+
+.pearl {
+	background-image: url("image/pearl.png");
+	transition: 0.5s;
+	width: 500px;
+	height: 550px;
+	filter: brightness(50%);
+}
+.pearl:hover {
+	width:5000px;
+	filter: brightness(100%);
+}
+
+.lotus {
+	background-image: url("image/lotus.png");
+	transition: 0.5s;
+	width: 500px;
+	height: 550px;
+	filter: brightness(50%);
+}
+.lotus:hover {
+	width:5000px;
+	filter: brightness(100%);
+}
+
+.sunset {
+	background-image: url("image/sunset.png");
+	transition: 0.5s;
+	width: 500px;
+	height: 550px;
+	filter: brightness(50%);
+}
+.sunset:hover {
+	width:5000px;
+	filter: brightness(100%);
+}
